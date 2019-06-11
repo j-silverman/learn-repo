@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_listings
+    description:  Model of AirBnB listings in Colorado
+    columns:
+    - name: id
+      description: Primary key of the table
+      tests:
+        - not_null
+        - unique
