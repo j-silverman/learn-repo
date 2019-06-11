@@ -82,4 +82,4 @@ SELECT host_id
 ,last_review
 ,first_review
 ,host_since
-FROM source_data.listings
+FROM {{source('airbnb','listings')}}
